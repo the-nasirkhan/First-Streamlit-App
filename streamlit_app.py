@@ -95,7 +95,7 @@ if streamlit.button('Get Fruit Load List'):
   my_data_rows = mget_fruit_load_list()
   streamlit.dataframe(my_data_rows)
 
-#streamlit.header("The fruit load list contains:")
+streamlit.header("The fruit load list contains:")
 
 
 
