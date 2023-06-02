@@ -106,9 +106,7 @@ def insert_row_snowflake(new_fruit):
   
 fruits_to_add = ["jackfruit", "papaya", "guava", "kiwi"]
 
-for fruit in fruits_to_add:
-    response = insert_row_snowflake(fruit)
-    print(response)  # Optional: Print the response message
+
 
 
 add_my_fruit = streamlit.text_input("What fruit would you like to add?")
